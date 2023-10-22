@@ -1,0 +1,6 @@
+config BR2_PACKAGE_LDD
+	bool "ldd"
+	help
+	  LDD module
+	  Includes the LDD module with misc-modules and scull drivers in the kernel image.
+	  Used to understand kernel driver builds.
